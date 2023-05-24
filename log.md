@@ -94,6 +94,20 @@
 >0042 - Valid Parentheses
 >0155 - Min Stack 
 --------------------------
-## May 22 2023
->0150 - Evaluate Reverse Polish Notation
+### May 23 2023
+> ### 0150 - Evaluate Reverse Polish Notation
+> - Stack
+> ### 0022 - Generate Parentheses 
+> - Using recurse backtracking  to explore every combination, until base case is hit, and push to result 
+--------------------------
+### May 24 2023
+> ### 0739 - Daily Temperatures
+> - Useing stack 
+> ### 0853 - Car Fleet (medium)
+> - Calculate the Time to reach the destination, and using a stack to keep track of them
+> - ![Car Fleet](/questions/graphs/0853_CarFleet.svg)
+--------------------------
+### Date
+> ### 
+> - 
 --------------------------
