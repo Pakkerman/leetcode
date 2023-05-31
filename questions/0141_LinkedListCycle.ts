@@ -2,21 +2,23 @@
 //leetcode.com/problems/linked-list-cycle/description/
 
 https: class ListNode {
-  val: number
-  next: ListNode | null
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = val === undefined ? 0 : val
-    this.next = next === undefined ? null : next
-  }
+    val: number
+    next: ListNode | null
+    constructor(val?: number, next?: ListNode | null) {
+        this.val = val === undefined ? 0 : val
+        this.next = next === undefined ? null : next
+    }
 }
 
 function hasCycle(head: ListNode | null): boolean {
-  let fast = head
-  while (fast && fast.next) {
-    head = head.next
-    fast = fast.next.next
-    if (head === fast) return true
-  }
+    let slow = head
+    let fast = head
 
-  return false
+    while (fast && fast.next) {
+        if (slow) slow = slow.next
+        fast = fast.next.next
+        if (slow === fast) return true
+    }
+
+    return false
 }

@@ -99,15 +99,51 @@
 > - Stack
 > ### 0022 - Generate Parentheses 
 > - Using recurse backtracking  to explore every combination, until base case is hit, and push to result 
---------------------------
+# 
+
+
 ### May 24 2023
 > ### 0739 - Daily Temperatures
-> - Useing stack 
+> - Using stack 
+
 > ### 0853 - Car Fleet (medium)
 > - Calculate the Time to reach the destination, and using a stack to keep track of them
 > - ![Car Fleet](/questions/graphs/0853_CarFleet.svg)
---------------------------
+#
+
+### May 25 2023
+> ###  0084 - Largest Rectangle in Histogram
+> - Stack, duh
+> ![Largest Rectangle in Histogram](/questions/graphs/0084_LargestRectangleInHistogram.svg)
+#
+
+### May 26 2023
+> ### 0021 - Merge Two Sorted Lists 
+> ![Merge Two Sorted Lists](/questions/graphs/0021_MergeTwoSortedLists.svg)
+#
+
+### May 29 2023
+> ### 0143 - Reorder List (wonky)
+> ![Reorder List](/questions/graphs/0143_ReorderList.svg)
+> ### 0138 - Copy List with Random Pointer (wonky)
+#
+
+### May 30 2023
+> ### 0002 - Add Two Numbers (wonky)
+> ### 0141 - Linked List Cycle
+> ### 0142 - Linked List Cycle II
+> ### 0287 - Find the Duplicate Number
+#
+
+### May 30 2023
+> ### 0023 - Merge K Sorted Lists - MergeSort with linked lists (wonky)
+> ### 0025 - Reverse Nodes in k-Group (WOnky)
+> ### 0704 - Binary Search
+#
+
+
+
 ### Date
 > ### 
 > - 
---------------------------
+#

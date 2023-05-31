@@ -1,3 +1,8 @@
-2, [10, 8, 0, 5, 3], [2, 4, 1, 1, 3]), 'Output: 3')
-// console.log(carFleet(10, [3], [3]), 'Output: 1')
-// console.log(carFleet(1
+const stack: number[] = []
+  const cars: { pos: number; time: number }[] = position
+    .map((pos, idx) => {
+      return { pos: pos, time: (target - pos) / speed[idx] }
+    })
+    .sort((a, b) => b.pos - a.pos)
+
+  console.log(cars)
