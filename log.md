@@ -141,9 +141,37 @@
 > ### 0704 - Binary Search
 #
 
+### June 01 2023
+> ### 0023 - Merge K Sorted Lists - MergeSort with linked lists (review)
 
+#
+
+### June 02 2023
+> ### 0023 - Merge K Sorted Lists - MergeSort with linked lists (review)
+> ![](/questions/graphs/0025_ReverseNodesInKGroup.svg)
+> ### 0074 - Search a 2D Matrix In O(log(M * N))
+> ![](/questions/graphs/0074_SearchA2DMatrix.svg)
+> ### 0875 - Koko Eating Bananas (wonky)
+#
+
+### June 03 2023
+> ### 0875 - Koko Eating Bananas (revisited)
+> ### 0074 - Search a 2D Matrix In O(log(M * N)) (revisited)
+#
+
+### June 04 2023
+> ### 0153 - Find Minimum in Rotated Sorted Array (wonky)
+> ### 0033 - Search in Rotated Sorted Array (wonky)
+> 
+#
+
+### June 07 2023
+> ### 0981 - Time Based Key-Value Store 
+> ### 0004 - Median of Two Sorted Array -- started 
+#
 
 ### Date
-> ### 
+### June 02 2023
+> ###
 > - 
 #

@@ -19,26 +19,23 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
     // If the second pointer is not null, reverse this portion
     // Traverse these 2 pointer by K once more and repeat
 
-    const dummy = new ListNode()
-    dummy.next = head
+    const dummy: ListNode | null = new ListNode(0, head)
     let groupPrev = dummy
-
     while (true) {
-        let kthNode = getNode(groupPrev, k)
-        if (!kthNode) break
+        let kth = getNode(groupPrev, k)
+        if (!kth) break
 
-        let groupNext = kthNode.next
-        let prev = kthNode.next
         let curr = groupPrev.next
-        while (curr !== groupNext) {
-            let tmp = curr.next
+        let groupNext = kth.next
+        let prev = kth.next
+        while (curr && curr !== groupNext) {
+            const tmp = curr.next
             curr.next = prev
             prev = curr
             curr = tmp
         }
-
-        let tmp = groupPrev.next
-        groupPrev.next = kthNode
+        const tmp = groupPrev.next!
+        groupPrev.next = kth
         groupPrev = tmp
     }
 
