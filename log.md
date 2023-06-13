@@ -170,8 +170,22 @@
 > ### 0004 - Median of Two Sorted Array -- started 
 #
 
+### June 08 2023
+> ### 0121 - Best Time to Buy and Sell Stock
+> ### 0003 - Longest Substring Without Repeating Characters (start)
+#
+
+### June 09 2023
+> ### [0121 - Best Time to Buy and Sell Stock (redo)](0121_BestTimeToBuyAndSellStock.ts)
+> ### [0003 - Longest Substring Without Repeating Characters](0003_LongestSubstringWithoutRepeatingCharacters.ts)
+#
+
+### June 13 2023
+> ### [0005 - Longest Palindromic Substring](0005_LongestPalindromicSubstring.ts)
+> ### 
+#
+
 ### Date
-### June 02 2023
 > ###
 > - 
 #

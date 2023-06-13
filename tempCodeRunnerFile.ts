@@ -1,1 +1,1 @@
-[] | [string, string, number] | [string, number]
+console
