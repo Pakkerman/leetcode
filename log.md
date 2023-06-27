@@ -141,12 +141,12 @@
 > ### 0704 - Binary Search
 #
 
-### June 01 2023
+## June 01 2023
 > ### 0023 - Merge K Sorted Lists - MergeSort with linked lists (review)
 
 #
 
-### June 02 2023
+## June 02 2023
 > ### 0023 - Merge K Sorted Lists - MergeSort with linked lists (review)
 > ![](/questions/graphs/0025_ReverseNodesInKGroup.svg)
 > ### 0074 - Search a 2D Matrix In O(log(M * N))
@@ -154,38 +154,85 @@
 > ### 0875 - Koko Eating Bananas (wonky)
 #
 
-### June 03 2023
+## June 03 2023
 > ### 0875 - Koko Eating Bananas (revisited)
 > ### 0074 - Search a 2D Matrix In O(log(M * N)) (revisited)
 #
 
-### June 04 2023
+## June 04 2023
 > ### 0153 - Find Minimum in Rotated Sorted Array (wonky)
 > ### 0033 - Search in Rotated Sorted Array (wonky)
 > 
 #
 
-### June 07 2023
+## June 07 2023
 > ### 0981 - Time Based Key-Value Store 
 > ### 0004 - Median of Two Sorted Array -- started 
 #
 
-### June 08 2023
+## June 08 2023
 > ### 0121 - Best Time to Buy and Sell Stock
 > ### 0003 - Longest Substring Without Repeating Characters (start)
 #
 
-### June 09 2023
+## June 09 2023
 > ### [0121 - Best Time to Buy and Sell Stock (redo)](0121_BestTimeToBuyAndSellStock.ts)
 > ### [0003 - Longest Substring Without Repeating Characters](0003_LongestSubstringWithoutRepeatingCharacters.ts)
 #
 
-### June 13 2023
+## June 13 2023
 > ### [0005 - Longest Palindromic Substring](0005_LongestPalindromicSubstring.ts)
-> ### 
 #
 
-### Date
-> ###
-> - 
+## June 14 2023
+> ### [0005 - Longest Palindromic Substring](0005_LongestPalindromicSubstring.ts) (revisited)
+> ### 0076 - Minimum Window Substring
+#
+
+## June 15 2023
+### [0567 - PermutationInString](/problems/0567_PermutationInString.ts) (kinda got it)
+### ![](/problems/graphs/0543_DiameterOfBinaryTree.svg)
+### [0226 - InvertBinaryTree](/problems/0226_InvertBinaryTree.ts) (kinda got it)
+### [0104 - Maximum Depth of Binary Tree](/problems/0104_MaximumDepthBinaryTree.ts)
+### [0543 - Diameter of Binary Tree](/problems/0543_DiameterOfBinaryTree.ts)
+#
+
+## June 16 2023
+ ### [0110 - Balanced Binary Tree](/problems/0110_BalancedBinaryTree.ts)
+ ### ![](problems/graphs/0110_BalancedBinaryTree.svg)
+ ### [0100 - Same Tree](/problems/0100_SameTree.ts)
+ - 
+#
+
+## June 26 2023
+### Solved:
+ ### [0235 - Lowest Common Ancestor of a Binary Search Tree](/problems/0235_LowestCommonAncestorOfABinarySearchTree.ts)
+ - BST is inherently sorted, use it.
+ ### [0102 - Binary Tree Level Order Traversal](problems/0102_BinaryTreeLeverOrderTraversal.ts)
+ - it makes no difference using pre-order or post-order traverse, the ordering is maintained by lever count
+ ### [1448 - Count Good Nodes in Binary Tree](problems/1448_CountGoodNodesInBinaryTree.ts)
+ - While traverse, you need to update the max value seen, and compare it with the next
+#
+
+## June 27 2023
+### Review: 
+- [1448 - Count Good Nodes in Binary Tree](problems/1448_CountGoodNodesInBinaryTree.ts)
+- [0102 - Binary Tree Level Order Traversal](problems/0102_BinaryTreeLeverOrderTraversal.ts)
+
+### Solved:
+### [0098 - Validate Binary Search Tree](problems/0098_ValidateBinarySearchTree.ts)
+- A valid tree from root all the left value must be smaller, right value must be bigger.
+### [0230 - Kth Smallest Element in a BST](problems/0230_KthSmallestElementInABST.ts)
+- on a valid BST use In-order traverse will produce from the smallest to the largest
+### []()
+- 
+#
+
+
+## New Date
+### Review: 
+- 
+### Solved:
+### []()
+- 
 #

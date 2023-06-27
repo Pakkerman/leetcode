@@ -4,40 +4,36 @@
 function longestPalindrome(s: string): string {
   let curr = 0
   let maxLen = 0
-  let longest = ""
+  let longestString = ""
 
+  // walk the curr pointer
   while (curr < s.length) {
-    // walk the curr pointer
+    // handle if the char next to curr is the same character
     let left = curr
     let right = curr
-
-    // handle if the char next to curr is the same character
     // increment right by 1 and until it's not the same or hit the bound
     // Also handle even length string
-    while (right < s.length) {
-      if (s[curr] !== s[right + 1]) break
-      right++
+    // "acca" starting with 'cc' and grow and check
+    while (s[curr] === s[right + 1]) {
+      if (s[right + 1] === s[curr]) right++
     }
 
-    // "acca" starting with 'cc' and grow and check
-    while (0 <= left && right < s.length) {
-      if (s[left - 1] === undefined || s[right + 1] === undefined) break
+    // Handle current string and update the longest substring
+    while (0 <= left - 1 && right + 1 < s.length) {
       if (s[left - 1] !== s[right + 1]) break
       left--
       right++
     }
 
-    // Handle current string and update the longest substring
-    const substringLen = right - left + 1
-    if (substringLen > maxLen) {
-      maxLen = substringLen
-      longest = s.slice(left, right + 1)
+    let len = right - left + 1
+    if (len > maxLen) {
+      maxLen = len
+      longestString = s.slice(left, right + 1)
     }
-
     curr++
   }
 
-  return longest
+  return longestString
 }
 
 const a = "babad"

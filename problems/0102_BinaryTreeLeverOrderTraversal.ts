@@ -12,23 +12,20 @@ class TreeNode {
   }
 }
 
-function traverse(
-  node: TreeNode | null,
-  path: number[][],
-  counter: number = 0
-): number[][] {
-  if (!node) return path
-  // Init empty array in path[] to match counter
-  while (path.length != counter + 1) path.push([])
-
-  path[counter].push(node.val)
-  counter++
-  traverse(node.left, path, counter)
-  traverse(node.right, path, counter)
-
-  return path
-}
-
 function levelOrder(root: TreeNode | null): number[][] {
-  return traverse(root, [])
+  const out: number[][] = []
+  traverse(root, 0)
+
+  function traverse(curr: TreeNode | null, level: number): boolean {
+    if (!curr) return false
+
+    if (out[level]) out[level].push(curr.val)
+    else out[level] = [curr.val]
+
+    traverse(curr.left, level + 1)
+    traverse(curr.right, level + 1)
+
+    return false
+  }
+  return out
 }
